@@ -20,4 +20,4 @@ based on the example in the [Stanford NER FAQ][FAQ].
 3. Edit `train.tsv` and `test.tsv`, replacing `O` with entity names where
    appropriate. This may take some time.
 4. Run `make model` to produce the model, in `ner-model.ser.gz`.
-5. Run `make check` to test the model against the examples from `text.txt`.
+5. Run `make check` to test the model against the examples from `test.txt`.
