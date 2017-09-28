@@ -22,5 +22,5 @@ sources: $(train_file) $(test_file)
 	echo "" > $@; \
 	while read line; do \
 	  echo $$line | $(JAVA) edu.stanford.nlp.process.PTBTokenizer >> $@; \
-		echo >> $@; \
+	  echo >> $@; \
 	done < $<
